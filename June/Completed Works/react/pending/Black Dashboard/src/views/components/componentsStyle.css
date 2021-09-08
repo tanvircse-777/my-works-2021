@@ -1,0 +1,27 @@
+.userDetailsCardBody{
+    display: flex;
+}
+
+.userDetailsCardBody div{
+    display: inline-block;
+    width: 40%;
+}
+.userDetailsCardBodyFirst{
+padding-left: 20%;
+font-size: 16px;
+}
+.userDetailsCardBodyFirst h5{
+
+}
+
+.userDetailsCardBodyFirst p{
+    
+    }
+.userDetailsCardBodySecond{
+    
+}
+
+.userDetailsCardBodySecond a{
+    float:right;
+   padding-right: 5%;
+}

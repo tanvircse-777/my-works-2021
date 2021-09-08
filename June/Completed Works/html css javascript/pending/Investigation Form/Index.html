@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Investigation Form</title>
+        <link href='index.css' rel='stylesheet'>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    </head>
+    <body>
+        <div class='form_head w3-container main-form'>
+            <div class="w3-row">
+                <div class="w3-col w3-container" style="width:20%"><img style='height:100px' src='logo.png'></div>
+                <div class="w3-col w3-container" style="width:60%;border-right: 1px solid black;border-left: 1px solid black;">
+                    <h2 style="text-align: center;font-weight: 700;">
+                        INCIDENT INVESTIGATION FORM
+                    </h2>
+                    <h2 style="text-align: center;">Occupational Health Safety & Environmental Manual</h2>
+                </div>
+                <div class="w3-col w3-container" style="width:20%">
+                    <h4 style="margin:0">Document Number </h4>
+                    <h5>S101 Version 003</h5>
+                    <h5>Page 1 of 2 </h5>
+                </div>
+              </div>
+        </div>
+       <form class='main-form w3-container' action="/action_page.php">
+             <!--<label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        -->
+            <div class="custom_div">
+            <table id='accident_incident_table' class='common_table'>
+                <tr>
+                    <td>
+                        <div class='title_td'>
+                            <p>Accident/Incident</p>
+                        </div>
+                        <div class='checkbox'>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='title_td'>
+                            <p>Near Miss</p>
+                        </div>
+                        <div class='checkbox'>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='title_td'>
+                            <p>	Property/Environmental Damage</p>
+                        </div>
+                        <div class='checkbox'>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class='title_td'>
+                            <p>Hazard Reporting</p>
+                        </div>
+                        <div class='checkbox'>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table id='workplace_addres' class='common_table'>
+                <tr>
+                    <td>
+                        Workplace Address– where injury/illness/incident occurred
+                    </td>
+                    <td>
+                        <input class='input_class' type="text" id="fname" name="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name of client representative. 
+                    </td>
+                    <td>
+                        <input class='input_class' type="text" id="fname" name="fname"> 
+                    </td>
+                </tr>
+            </table>
+            <h3 class='part'>PART 1 To be completed in all incidents.</h3>
+            <table class='common_table'>
+                <tr>
+                    <td style='width:339px' rowspan="8">
+                        <img src='body.png'>
+                    </td>
+                </tr>
+                <tr>
+                    <th style='width:450px' colspan="2">Description of Incident Accident/Near
+                        Miss/Hazard
+                        </th>
+                    <th colspan="2">How did the Accident/Near Miss happen?</th>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                    <td colspan="2"><input class='input_class' type="text" id="" name="fname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class='input_class' type="text" id="fname" name="fname"> 
+                    </td>
+                    <td rowspan="3">
+                        <h4>Injury Treated By </h4>
+                        <input class='input_class' type="text" id="fname" name="fname">
+                    </td>
+                    <td>
+                        <h6 class='td_H4_style'>Fast Aider</h6>
+                             <div class='checkboxSmall'>
+                                 <label class="container">
+                                 <input type="checkbox">
+                                 <span class="checkmark"></span>
+                                 </label>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                   
+                    <td colspan="2" rowspan="2"> 
+                        <input style='height:50px' class='input_class' type="text" id="fname" name="fname">
+                    </td>
+                    <td>
+                        <h6 class='td_H4_style'>Other</h6>
+                        <div class='checkboxSmall'>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                       </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style='display:none' colspan="2">hhh3</td>
+                </tr>
+            </table>
+        </div>
+            <div class="w3-row">
+                <div class="w3-col w3-container" style="width:40%">
+                    <table class='common_table'>
+                        <tr>
+                            <td><h6 class='td_H4_style'>Name of Injured person</h6></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td><h6 class='td_H4_style'>Date and Time of incident</h6></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td><h6 class='td_H4_style'>Location of Incident </h6></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td><h6 class='td_H4_style'>Date incident reported </h6></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td><h6 class='td_H4_style'>Date of Investigation </h6></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="w3-col w3-container"  style="width:23%">
+                    <div style='border-bottom: 2px solid black;margin:0 -32px;height:132px'>
+                        <h4>Incident Notification </h4>
+                        <p>Incidents involving
+                            serious injury or death;
+                            must be reported by
+                            company to
+                            government authority.
+                            </p>
+                    </div>
+                </div>
+                <div class="w3-col w3-container"  style="width:37%">
+                    <table class='common_table'>
+                        <tr>
+                            <td style='margin-right:-50px'rowspan="2">
+                                <h4 class='td_H4_style'>Treatment Given</h4>
+                            </td>
+                            <td>
+                                <input class='input_class' type="text" id="fname" name="fname">
+                            </td>
+                        </tr>
+                        <tr>
+                        
+                            <td>
+                                <input  class='input_class' type="text" id="fname" name="fname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">
+                                <h4 class='td_H4_style'>Referrals Name of Provider</h4>
+                            </td>
+                            <td>
+                                <h6 class='td_H4_style'>Family Doctor</h6>
+                                <div class='checkboxSmall'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>
+                                <h6 class='td_H4_style'>Company Doctor</h6>
+                                <div class='checkboxSmall'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                          
+                            <td>
+                                <h6 class='td_H4_style'>Other</h6>
+                                <div class='checkboxSmall'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+              </div>
+              <div class="custom_div">
+                <h3 class='part'>PART 2 (to be completed by the Investigating Supervisor/OH&S Rep/Injured Workers)</h3>
+                <h4>Type of Accident/Hazard:</h4>
+                <table class="common_table">
+                    <tr>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Plant and Equipment </h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Fatigue</h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Falling/Flying objects</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Slips/Trips/Falls</h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Noise exposure</h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Chemical exposure</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Striking </h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Manual handling</h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Other</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  style='width:29%'>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Course of employment</h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'>Heat Exposure </h6>
+                        </td>
+                        <td>
+                            <div class='checkboxSmallRight'>
+                                <label class="container">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <h6 class='td_H4_style'></h6>
+                        </td>
+                    </tr>
+                </table>
+                <h4>Training and Competency</h4>
+                <table class="common_table">
+                    <tr>
+                        <td style='width:65%'><h6 class='td_H4_style'>What training has this person received for the task?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Date training was undertaken?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Described additional training you believe should be undertaken?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                </table>
+                <h4>Plant and Equipment</h4>
+                <table class="common_table">
+                    <tr>
+                        <td style='width:65%'><h6 class='td_H4_style'>What plant/equipment/machinery/tools were involved?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>What plant/equipment/machinery/tools should have been used? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Were suitable plant/equipment/machinery/tools available? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Were the plant/equipment/machinery/tools used correctly? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Was certification required for operation? If yes, was the person certified? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                </table>
+                <h4>Controls</h4>
+                <table class="common_table">
+                    <tr>
+                        <td style='width:65%'><h6 class='td_H4_style'>What controls were in use (PPE, procedures etc)? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>What controls should have been used?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Were suitable controls provided?</h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Were the controls used correctly? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Additional Contributing Factors? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Has Customer incident notification been completed? Please attached a copy </h6></td>
+                        <td>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black;'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>Yes</h6>
+                            </div>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>No</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>N/a</h6>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h3 class='part' style='text-align: center;'>Hazard Identification Reporting</h3>
+                <table class="common_table">
+                    <tr>
+                        <td style='width:65%'><h6 class='td_H4_style'>Has a Hazard Risk Assessment been completed? </h6></td>
+                        <td>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black;'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>Yes</h6>
+                            </div>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>No</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>N/a</h6>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Has awareness training been provided to nominated parties? </h6></td>
+                        <td>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black;'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>Yes</h6>
+                            </div>
+                            <div class='custom_div_yes_no' style='border-right: 1px solid black'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>No</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>N/a</h6>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><h6 class='td_H4_style'>Is the area contained/signed accordingly – detail immediate action
+                            implemented? </h6></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Has a plant risk assessment been undertaken? </h6></td>
+                        <td>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>Yes</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>No</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <h6 class='td_H4_style'>Please attach</h6>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h6 class='td_H4_style'>Has a manual handling risk assessment been undertaken? </h6></td>
+                        <td>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>Yes</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <div class='checkboxSmallRight'>
+                                    <label class="container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <h6 class='td_H4_style'>No</h6>
+                            </div>
+                            <div class='custom_div_yes_no'>
+                                <h6 class='td_H4_style'>Please attach</h6>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h3 class='part' style='text-align: center;'>Part 3 Complete Section for all Property / 
+                    Environmental Damage Incidents</h3>
+                    <table class='common_table'>
+                        <tr>
+                            <td rowspan="2">Damage</td>
+                            <td colspan="4"><input class='input_class' type="text" id="fname" name="fname"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="4"><input class='input_class' type="text" id="fname" name="fname"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Estimated Costs</td>
+                            <td style='display: flex;'><p style='display: inline-block;margin: 0;'>$</p><input  style='display: inline-block;' class='input_class' type="text" id="" name="fname"></td>
+                            <td>Name of Witness</td>
+                            <td colspan="2"><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>Plant Operationa</td>
+                            <td>
+                                <div class='custom_div_yes_no'>
+                                    <h6 class='td_H4_style'>Yes</h6>
+                                    <div class='checkboxSmallRight'>
+                                        <label class="container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    
+                                </div>
+                                <div class='custom_div_yes_no'>
+                                    <h6 class='td_H4_style'>No</h6>
+                                    <div class='checkboxSmallRight'>
+                                        <label class="container">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    
+                                </div>
+                            </td>
+                            <td rowspan="2">Contact Details</td>
+                            <td colspan="2"><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>Chemical Spil</td>
+                            <td>Quantity</td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                            <td>Phone</td>
+                        </tr>
+                    </table>
+
+                <h3 class='part' style='text-align: center;'>Part 4 Action taken/Proposed control 
+                    solutions identified to prevent reoccurrence.</h3>
+
+                <table class="common_table">
+                    <tr>
+                        <th style='width: 50%;'> CONTRIBUTING FACTORS</th>
+                        <th> CORRECTIVE ACTION -In line with hierarchy of control procedure.</th>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                </table>
+                <table class="common_table">
+                    <tr>
+                        <th style="width: 50%;">Investigation Team Recommendations</th>
+                        <th>Nominated persons responsible</th>
+                        <th>Proposed completion date</th>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                    </tr>
+                    
+                </table>
+                <h3 class='part'>Please attach additional documentation 
+                    or information eg. Photos, procedures, guidance material etc.</h3>
+                    <table class="common_table">
+                        <tr>
+                            <th></th>
+                            <th><input class='input_class' type="text" id="fname" name="fname">Print Name</th>
+                            <th><input class='input_class' type="text" id="fname" name="fname">Signature</th>
+                            <th><input class='input_class' type="text" id="fname" name="fname">Date</th>
+                        </tr>
+                        <tr>
+                            <td>Injured employee / independent contractor sign off</td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="file" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>Management </td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="file" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>OHS&E Consultant</td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="file" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>Other:-</td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="file" id="fname" name="fname"></td>
+                            <td><input class='input_class' type="text" id="fname" name="fname"></td>
+                        </tr>
+                    </table>
+                </div>
+          </form> 
+          
+    </body>
+</html>

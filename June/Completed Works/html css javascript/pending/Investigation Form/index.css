@@ -1,0 +1,79 @@
+input{
+    width: 100%;
+}
+
+.custom_div{
+    margin:0 16px;
+}
+
+.custom_div_yes_no{
+    display: inline-block;width:32%;
+}
+.main-form{
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+.form_head{
+    margin-bottom: 50px;
+    
+}
+.common_table{
+    border: 1px solid black;
+    border-spacing: 0;
+    width:100%;
+}
+
+.common_table td,th{
+    border: 1px solid black;
+}
+
+.common_table p{
+font-weight: 600;
+}
+
+.title_td{
+    display:inline-block;
+  
+}
+
+
+
+.part{
+    border:1px solid black;
+    background-color: #E6E6E6;
+    font-weight: 700;
+}
+
+.checkbox{
+  
+    float:right;
+    margin-right:20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+.checkboxSmall{
+  
+    float:right;
+    height: 0px;
+    width: 50px;
+    margin-top: 0px;
+}
+.checkboxSmallRight{
+    display:inline-block;
+    height: 0px;
+    width: 50px;
+    margin-top: 0px;
+}
+.containerSmall{
+    display: inline-block;
+}
+.td_H4_style{
+    display:inline-block;
+    margin:0;
+}
+
+.input_class{
+    border:none;
+}

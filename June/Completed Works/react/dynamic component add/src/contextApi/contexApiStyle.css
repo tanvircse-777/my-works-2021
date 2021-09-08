@@ -1,0 +1,33 @@
+.navContainer{
+    background-color: black;
+}
+
+.customDiv{
+    width: 50%;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 600;
+    display:inline-block;
+    margin: 0;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.customDiv:hover{
+    color: orange;
+}
+
+.movieDiv{
+    color: white;
+    background-color: #007ACC;
+    font-size: 16px;
+    font-weight: 600;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.movieDiv:hover{
+    color:orange;
+}
