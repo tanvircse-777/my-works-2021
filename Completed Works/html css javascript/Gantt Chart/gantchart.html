@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Project duration</title>
+	<script src="gantt.js?v=7.0.13"></script>
+	<link rel="stylesheet" href="gantt.css?v=7.0.13">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="testdata.js?v=7.0.13"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		html, body {
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		.gantt_task_line.gantt_dependent_task {
+			background-color: #65c16f;
+			border: 1px solid #3c9445;
+
+		}
+
+		.gantt_task_line.gantt_dependent_task .gantt_task_progress {
+			background-color: #46ad51;
+		}
+		.gantt_scale_cell, .gantt_last_cell, .gantt_scale_line, .gantt_task_scale{
+			display:none;
+		}
+		.table-btn{
+    border:1px solid black !important;
+    color:black !important;
+    background-color: white !important;
+  }
+  .empdiv:after
+{
+    content: '.';
+    visibility: hidden;
+}
+	</style>
+	<script>
+		
+	</script>
+</head>
+
+<body>
+	<div id="topnavbt" class="w3-row w3-container" style="text-align: center;">
+		<div class="w3-col empdiv" style="width:60%;display:block">
+			
+		</div>
+		<div class="w3-col" style="width:40%;">
+			<div class="btnall">
+				<div class="w3-col" style="width:80%;">
+					<div class="btn-group" style="">
+						<button type="button" class="btn btn-primary table-btn">1Q</button>
+						<button type="button" class="btn btn-primary table-btn" >6M</button>
+						<button type="button" class="btn btn-primary table-btn" >1Y</button>
+						<button type="button" class="btn btn-primary table-btn" >Fit</button>
+						<div class="btn-group">
+						  <button type="button" class="btn btn-primary dropdown-toggle table-btn" data-toggle="dropdown">
+						  Custom
+						  </button>
+						  <div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Tablet</a>
+							<a class="dropdown-item" href="#">Smartphone</a>
+						  </div>
+						</div>
+					  </div>
+				</div>
+				<div class="w3-col" style="width:20%;">
+					<div class="btn-group" style="">
+						<button type="button" class="btn btn-primary table-btn"><span class="glyphicon">&#xe015;</span></button>
+						<button type="button" class="btn btn-primary table-btn" >6M</button>
+					  </div>
+				</div>
+				</div>
+		</div>
+		
+	  </div>
+	  <div class="w3-row">
+		<div class="w3-col empdiv" style="width:18.5%;"></div>
+		<div class="w3-col" style="width:81.5%;">
+			<div class="w3-row" style="text-align:center;font-size: 20px;font-weight: 100; letter-spacing: 0px;">
+				<div class="w3-col" style="width:33.33%"><p>April</p></div>
+				<div class="w3-col" style="width:33.33%"><p>May</p></div>
+				<div class="w3-col" style="width:33.33%"><p>June</p></div>
+			  </div> 
+		</div>
+	  </div>
+	<div class="w3-row">
+		<div class="w3-col empdiv" style="width:18.5%;"></div>
+		<div class="w3-col" style="width:81.5%;">
+			<div class="w3-row" style="text-align:center;font-size: 14px;font-weight: 0; letter-spacing: 0px;">
+				<div class="w3-col" style="width:6.66%"><p>1 2 3 4 5</p></div>
+				<div class="w3-col" style="width:6.66%"><p>6 7 8 9 10</p></div>
+				<div class="w3-col" style="width:6.66%"><p>11 12 13 14 15</p></div>
+				<div class="w3-col" style="width:6.66%"><p>16 17 18 19 20</p></div>
+				<div class="w3-col" style="width:6.66%"><p> 21 22 23 24 25</p></div>
+				<div class="w3-col" style="width:6.66%;border-right: solid 1px black"><p>26 27 28 29 30</p></div>
+				<div class="w3-col" style="width:6.66%"><p>31 32 33 34 35</p></div>
+				<div class="w3-col" style="width:6.66%"><p>36 37 38 39 40</p></div>
+				<div class="w3-col" style="width:6.66%"><p>41 42 43 44 45</p></div>
+				<div class="w3-col" style="width:6.66%"><p>46 47 48 49 50</p></div>
+				<div class="w3-col" style="width:6.66%"><p>51 52 53 54 55</p></div>
+				<div class="w3-col" style="width:6.66%;border-right: solid 1px black"><p>56 57 58 59 60</p></div>
+				<div class="w3-col" style="width:6.66%"><p>61 62 63 64 65</p></div>
+				<div class="w3-col" style="width:6.66%"><p> 66 67 68 69 70</p></div>
+				<div class="w3-col" style="width:6.66%"><p>71 72 73 74 75</p></div>
+			  </div> 
+		</div>
+	  </div> 
+	  
+<div id="gantt_here" style='width:100%; height:100%;'></div>
+<script>
+
+	gantt.config.lightbox.sections = [
+		{name: "description", height: 70, map_to: "text", type: "textarea", focus: true},
+		{name: "time", type: "duration", map_to: "auto"}
+	];
+
+	gantt.config.scale_height = 50;
+
+	gantt.config.scales = [
+		{unit: "month", format: "%F, %Y"},
+		{unit: "day", step: 1, format: "%j, %D"}
+	];
+
+	gantt.init("gantt_here");
+
+	gantt.parse({
+		data: [
+			{id: 11, text: "Project #1", start_date: "", duration: 0, progress: 0.6, open: true},
+			{id:12, text:"Task #1", start_date:"04-04-2018", duration:"5", parent:11, progress: 1, open: true},
+			{id:13, text:"Task #2", start_date:"", duration:"", parent:11, progress: 0.5, open: true},
+			{id:14, text:"Task #3", start_date:"02-04-2018", duration:"6", parent:11, progress: 0.8, open: true},
+			{id:15, text:"Task #4", start_date:"", duration:"", parent:11, progress: 0.2, open: true},
+			{id:16, text:"Task #5", start_date:"02-04-2018", duration:"70", parent:11, progress: 0, open: true},
+			{id:17, text:"Task #2.1", start_date:"03-04-2018", duration:"2", parent:13, progress: 1, open: true},
+			{id:18, text:"Task #2.2", start_date:"06-04-2018", duration:"3", parent:13, progress: 0.8, open: true},
+			{id:19, text:"Task #2.3", start_date:"10-04-2018", duration:"4", parent:13, progress: 0.2, open: true},
+			{id:20, text:"Task #2.4", start_date:"10-04-2018", duration:"4", parent:13, progress: 0, open: true},
+			{id:21, text:"Task #4.1", start_date:"03-04-2018", duration:"4", parent:15, progress: 0.5, open: true},
+			{id:22, text:"Task #4.2", start_date:"03-04-2018", duration:"4", parent:15, progress: 0.1, open: true},
+			{id:23, text:"Task #4.3", start_date:"03-04-2018", duration:"5", parent:15, progress: 0, open: true}
+		],
+		links:[
+			{id:"10",source:"11",target:"12",type:"1"},
+			{id:"11",source:"11",target:"13",type:"1"},
+			{id:"12",source:"11",target:"14",type:"1"},
+			{id:"13",source:"11",target:"15",type:"1"},
+			{id:"14",source:"11",target:"16",type:"1"},
+			{id:"15",source:"13",target:"17",type:"1"},
+			{id:"16",source:"17",target:"18",type:"0"},
+			{id:"17",source:"18",target:"19",type:"0"},
+			{id:"18",source:"19",target:"20",type:"0"},
+			{id:"19",source:"15",target:"21",type:"2"},
+			{id:"20",source:"15",target:"22",type:"2"},
+			{id:"21",source:"15",target:"23",type:"2"}
+		]
+	});
+
+
+</script>
+</body>

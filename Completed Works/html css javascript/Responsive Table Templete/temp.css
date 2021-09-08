@@ -1,0 +1,262 @@
+body {
+    background: #fff;
+}
+#container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.topDiv{
+    background-color: #597EAA;
+    padding: 15px;
+}
+.part{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+
+.partLocation{
+    border: 1px solid black;
+    margin: 20px 5px 5px 5px;
+}
+
+.area{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.areaTable{
+    border: 1px solid black;
+    width: 90%;
+}
+.addPart{
+    margin-top: 5px;
+}
+
+.addPartList{
+    list-style-type: none;
+    text-align: center;
+
+    
+}
+
+.addPartList li{
+    display: inline;
+    background-color: rgb(221, 212, 212);
+    padding: 6px 0px 10px 0px;
+    border-radius: 7%;
+    
+}
+.addLocation{
+    margin-top: 11px;
+}
+
+.addLocationList{
+    list-style-type: none;
+    margin-left:-40px;
+    
+}
+
+.addLocationList li{
+    color:white;
+    display: inline;
+    border-radius: 8%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.addArea{
+    margin-top: 11px;
+   
+}
+.addAreaList{
+    list-style-type: none;
+    margin-left:-40px;
+    margin-bottom:25px;
+}
+
+.addAreaList li{
+    color:white;
+    display: inline;
+    border-radius: 6%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.addAreaList button{
+    float:right;margin-right:9px;margin-top:-6px
+}
+.someText{
+    margin-top: 10px;
+    background-color: rgb(223, 219, 219);
+}
+.someTextList{
+    list-style-type: none;
+    margin-left:-40px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+
+.someTextList li{
+    color:white;
+    display: inline;
+    border-radius: 7%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.areaTable{
+   
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+.areaTable th{
+  background-color: #df50af;
+  color: white;
+}
+
+.areaTable th, td{
+    padding: 4px 0px !important;
+    margin-right: -100px !important;
+}
+
+.wrap div{
+    border-radius: 1%;
+}
+
+.partDetail{
+    border: 2px solid white;
+    background-color: #597EAA;
+    color: white;
+    text-align: left;
+    padding: 3px;
+}
+
+.partDetailArea{
+   
+    margin-bottom: 5px;
+    border: 2px solid white;
+    background-color: #597EAA;
+    color: white;
+    text-align: left;
+    padding: 3px;
+}
+
+.partDetailTop{
+    background-color: #EEEEEE;
+    border: 2px solid black;
+    color: black;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.verUlStyle li{
+    border:none !important;
+}
+
+#parentHorizontalTab li{
+    background-color: white ;
+}
+
+.allButton{
+    border: 2px solid black !important;
+}
+
+.hor_1 li{
+    background-color: #FFFFFF !important;
+}
+
+.ver_1 li{
+    background-color: #EEEEEE !important;
+}
+
+.ver_2 li{
+    background-color: #CCCCCC !important;
+}
+
+
+/*button group stars*/
+
+.btn-group-green button {
+    background-color: #4CAF50 !important; /* Green background */
+    border: 2px solid black !important; /* Green border */
+    color: white !important; /* White text */
+    padding: 3px 8px !important; /* Some padding */
+    cursor: pointer !important; /* Pointer/hand icon */
+    float: left !important; /* Float the buttons side by side */
+    margin-right: 15px !important;
+    border-radius: 5% !important;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group-green:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  
+  /* Add a background color on hover */
+  .btn-group-green button:hover {
+    background-color: #3e8e41 !important;
+  }
+
+  .btn-group-red button {
+    background-color: #E06666 !important; /* Green background */
+    border: 2px solid black !important; /* Green border */
+    color: white !important; /* White text */
+    padding: 3px 8px !important; /* Some padding */
+    cursor: pointer !important; /* Pointer/hand icon */
+    float: left !important; /* Float the buttons side by side */
+    margin-right: 15px !important;
+    border-radius: 5% !important;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group-red:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  
+  /* Add a background color on hover */
+  .btn-group-red button:hover {
+    background-color: #bb3838 !important;
+  }
+
+  /*button group end*/
+
+.tableInput{
+    width:100px;
+}
+
+#areaTable1 .btn-primary{
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+  #areaTable1 .btn-primary{
+    margin-right:1px;
+    }
+    #areaTable1 .btn-success{
+    margin-left:3px;
+    height:90%;
+    width:
+    }
+}

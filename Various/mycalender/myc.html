@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="myc.css" rel="stylesheet">
+        <link href="evo-calendar.min.css" rel="stylesheet">
+        <link href="evo-calendar.midnight-blue.min.css" rel="stylesheet">
+        <link href="demo.css" rel="stylesheet">
+        <script src="myc.js"></script>
+        <script src="demo.js"></script>
+        <script src="evo-calendar.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    </head>
+    <body>
+        
+        <div id="demo">
+            <div class="section-content">
+                <p class="section-title --shrt">evocalendar in action!</p>
+                <div class="action-buttons">
+                    <p class="section-desc">Experience evocalendar in every theme</p>
+                    <button class="btn-action" data-set-theme="Default">DEFAULT</button>
+                    <button class="btn-action active" data-set-theme="Midnight Blue">MIDNIGHT BLUE</button>
+                    <button class="btn-action" data-set-theme="Royal Navy">ROYAL NAVY</button>
+                    <button class="btn-action" data-set-theme="Orange Coral">ORANGE CORAL</button>
+                </div>
+                <div class="console-log">
+                    <div class="log-content">
+                        <div class="--noshadow evo-calendar calendar-initialized midnight-blue" id="demoEvoCalendar"><div class="calendar-sidebar"><div class="calendar-year"><button class="icon-button" role="button" data-year-val="prev" title="Previous year"><span class="chevron-arrow-left"></span></button>&nbsp;<p>2021</p>&nbsp;<button class="icon-button" role="button" data-year-val="next" title="Next year"><span class="chevron-arrow-right"></span></button></div><div class="month-list"><ul class="calendar-months"><li class="month" role="button" data-month-val="0">January</li><li class="month" role="button" data-month-val="1">February</li><li class="month" role="button" data-month-val="2">March</li><li class="month active-month" role="button" data-month-val="3">April</li><li class="month" role="button" data-month-val="4">May</li><li class="month" role="button" data-month-val="5">June</li><li class="month" role="button" data-month-val="6">July</li><li class="month" role="button" data-month-val="7">August</li><li class="month" role="button" data-month-val="8">September</li><li class="month" role="button" data-month-val="9">October</li><li class="month" role="button" data-month-val="10">November</li><li class="month" role="button" data-month-val="11">December</li></ul></div><span id="sidebarToggler" role="button" aria-pressed="" title="Close sidebar"><button class="icon-button"><span class="bars"></span></button></span></div><div class="calendar-inner"><table class="calendar-table"><tbody><tr><th colspan="7">April</th></tr><tr class="calendar-header"><td class="calendar-header-day --weekend">Sun</td><td class="calendar-header-day">Mon</td><td class="calendar-header-day">Tue</td><td class="calendar-header-day">Wed</td><td class="calendar-header-day">Thu</td><td class="calendar-header-day">Fri</td><td class="calendar-header-day --weekend">Sat</td></tr><tr class="calendar-body"><td></td><td></td><td></td><td></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 01, 2021">1<span class="event-indicator"><div class="type-bullet"><div class="type-holiday"></div></div><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 02, 2021">2</div></td><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 03, 2021">3</div></td></tr><tr class="calendar-body"><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 04, 2021">4</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 05, 2021">5</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 06, 2021">6</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 07, 2021">7</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 08, 2021">8</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 09, 2021">9</div></td><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 10, 2021">10</div></td></tr><tr class="calendar-body"><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 11, 2021">11<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 12, 2021">12<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 13, 2021">13<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 14, 2021">14<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day calendar-active" role="button" data-date-val="April 15, 2021">15<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 16, 2021">16<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 17, 2021">17<span class="event-indicator"><div class="type-bullet"><div class="type-event"></div></div></span></div></td></tr><tr class="calendar-body"><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 18, 2021">18</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 19, 2021">19</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 20, 2021">20</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 21, 2021">21</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 22, 2021">22</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 23, 2021">23</div></td><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 24, 2021">24</div></td></tr><tr class="calendar-body"><td class="calendar-day --weekend"><div class="day" role="button" data-date-val="April 25, 2021">25</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 26, 2021">26</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 27, 2021">27</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 28, 2021">28</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 29, 2021">29</div></td><td class="calendar-day"><div class="day" role="button" data-date-val="April 30, 2021">30</div></td><td></td></tr></tbody></table></div><div class="calendar-events"><div class="event-header"><p>April15, 2021</p></div><div class="event-list"><div class="event-container" role="button" data-event-index="sKn89hi"><div class="event-icon"><div class="event-bullet-event"></div></div><div class="event-info"><p class="event-title">1-Week Coding...<span>5-day event</span></p><p class="event-desc">Lorem ipsum dolor sit amet.</p></div></div></div></div><span id="eventListToggler" role="button" aria-pressed="" title="Close event list"><button class="icon-button"><span class="chevron-arrow-right"></span></button></span></div>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn-action" id="addBtn">ADD EVENT</button>
+                    <button class="btn-action" id="removeBtn" disabled="">REMOVE EVENT</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/evo-calendar.js"></script>
+
+        <script>
+        // initialize your calendar, once the page's DOM is ready
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                calendarEvents: [
+      {
+        id: 'bHay68s', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2020", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["April/13/2020", "April/15/2020"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+            })
+        })
+        </script>
+
+    </body>
+</html>

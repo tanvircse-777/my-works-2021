@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Templete</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.min.css">
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" type="text/css" href="./demo/demo.css">
+
+
+
+    <link href="temp2.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <script src="temp2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./evo-calendar/js/evo-calendar.min.js"></script>
+    <script src="./demo/demo.js"></script>
+    
+</head>
+<body  class="container-fluid" style="background-color: #141E26;">
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="leftWrapper">
+                        <div class="topnav">
+                        <a href="#home"><img src='logo.PNG'></a>
+                        <div class="main">
+                            <div class="form-group has-search">
+                              <span class="fa fa-search form-control-feedback"></span>
+                              <input style="border-radius: 20px;background-color: #354528;height:30px;" type="text" class="form-control">
+                            </div>
+                          </div>
+                      </div>
+            
+                      <div class="row">
+                        <div class="col-sm-4">
+                            <div class="customDiv">
+                                <h6 style="color:white">Number of Students</h6>
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="customDiv">
+                                <h6 style="color:white">Jobs in this year</h6>
+                                <p>21</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="customDiv">
+                                <h6 style="color:white">Jobs in this month</h6>
+                                <p>8</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="mentorPortal">
+                          <div class="row">
+                              <div class="col-md-8">
+                                <h5 style="color:white">STUDYVILLAGE MENTOR PORTAL</h5>
+                                <p style="color:#C4D245;font-size: 30px;font-weight: 700;">Greg Inglish</p>
+                                <p>Southampton, UNITED KINGDOM</p>
+                              </div>
+                              <div class="col-md-4">
+                                  <img class="mentorImage" src='pass.jpg'>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="nextEvents">
+                          <h5 style="color:white;margin-bottom: 15px;">Next Events</h5>
+                          <div style="background-color:#FBCD16" class="nextEventsDiv">
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          </div>
+                          <div style="background-color:#FE296A" class="nextEventsDiv">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div style="background-color:#0C78E5" class="nextEventsDiv">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div style="background-color:#7D4DCB" class="nextEventsDiv">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div style="border-left: 1px solid #C5D529;" class="col-md-4">
+                    <div style="display:block;float:right">
+                        <div style="float:right"><img class="sideNavImage" src="pass.jpg"></div>
+                        <div style="float:right;display:block"><i style="color:#BFD63F;height: 30px;width:50px;" class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="tthisCalender">
+                        <section id="demos">
+                            <div class="section-content">
+                               <div class="console-log">
+                                   <div class="log-content">
+                                       <div class="--noshadow midnight-blue" id="demoEvoCalendar"></div>
+                                   </div>
+                               </div>
+                              <!-- <div class="action-buttons">
+                                   <button class="btn-action" id="addBtn">ADD EVENT</button>
+                                   <button class="btn-action" id="removeBtn" disabled>REMOVE EVENT</button>
+                               </div>
+                            -->
+                           </div>
+                       </section>
+                    </div>
+                    <div class="row eventList">
+                        <div class="col-md-4">
+                            <ul class="eventList">
+                                <li>Event 1</li>
+                                <li>Event 2</li>
+                                <li>Event 3</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="eventList">
+                                <li>Event 4</li>
+                                <li>Event 5</li>
+                                <li>Event 6</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="eventList">
+                                <li>Event 7</li>
+                                <li>Event 8</li>
+                                <li>Event 9</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="sideNavList">
+                        <li><a href="#">NEXT EVENT</a></li>
+                        <li><a href="#">TRAINING MODULES</a></li>
+                        <li><a href="#">STUDYVILLAGE HANDBOOK</a></li>
+                        <li><a href="#">YOUR STUDNTS</a></li>
+                        <li><a href="#">YOUR PROFILE</a></li>
+                        <li><a href="#">CONTACT STUDY VILLAGE</a></li>
+                    </ul>
+                </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="image-gallery.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="shortcut icon" href="/assets/favicon.ico">
+        <link rel="stylesheet" href="dropzone.css">
+        
+
+<body class="container-fluid">
+  <div>
+  <div style="float:right">
+  <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a onclick="myFunction()" class="dropdown-item" href="#fullView">Full View</a>
+      <a onclick="myFunction2()" class="dropdown-item" href="#listView">List View</a>
+    </div>
+  </div>
+</div>
+<div style="float:right">
+  <form class="form-search" method="get" action="#">
+    <input type="search" name="search" placeholder="search your book here for..">
+    <button type="submit">Search</button>
+  </form>
+</div>
+</div>
+  <div class="clearfix"></div>
+<div id="fullView" style="justify-content:center;margin-top:100px">
+
+  
+<div class="row">
+  
+    <div class="col-md-3">
+      <form id="fullViewForm" action="https://webhook.site/b0018efa-ba49-45fc-b351-717bd00c4478" method="POST">
+        <div class="drop-zone">
+          <span class="drop-zone__prompt">Drop file here or click to upload</span>
+          <input type="file" name="myFile" class="drop-zone__input">
+        </div>
+        <input type="submit">
+      </form>
+    </div>
+    <div class="col-md-3">
+      <div class="img">
+        <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+      <div class="desc">Trolltunga Norway</div>
+    </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" alt="Trolltunga Norway" width="300" height="200">
+          <div class="desc">Trolltunga Norway</div>
+        </div>
+    </div>
+    <div class="col-md-3" id="text">
+      
+    </div>
+
+</div>
+</div>
+<div id="listView">
+  <ul>
+    <li>
+      <form id="listViewForm" action="#" method="POST">
+      <div class="drop-zone-list">
+        <span class="drop-zone__prompt-list">Drop file or click to upload</span>
+        <input type="file" name="myFile" class="drop-zone__input-list">
+      </div>
+    </form>
+    </li>
+    <li> <img src="image2.jpg" class="imgIcon" alt="Trolltunga Norway"><a class="imgLink" href="image2.jpg">Image1</a></li>
+    <li> <img src="image2.jpg" class="imgIcon" alt="Trolltunga Norway"><a class="imgLink" href="image2.jpg">Image1</a></li>
+    <li> <img src="image2.jpg" class="imgIcon" alt="Trolltunga Norway"><a class="imgLink" href="image2.jpg">Image1</a></li>
+    <li> <img src="image2.jpg" class="imgIcon" alt="Trolltunga Norway"><a class="imgLink" href="image2.jpg">Image1</a></li>
+  
+  
+  </ul>
+  </div>
+
+
+ <div class="clearfix"></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+
+</div>
+
+<script>
+
+$(document).ready(function(){
+  $("#fullViewForm").unbind('submit').bind('submit', function(){
+    var form =$(this);
+    var url= form.attr('action');
+    var type= form.attr('method');
+    $.ajax({
+      url: url,
+      type: type,
+      data: form.serialize(),
+      dataType: 'file',
+      success: function(response){
+        $('kkk')[0].reset();
+        alert(respone);
+      }
+    });
+    return false;
+  });
+});
+$(document).ready(function(){
+  $("#listViewForm").unbind('submit').bind('submit', function(){
+    var form =$(this);
+    var url= form.attr('action');
+    var type= form.attr('method');
+    $.ajax({
+      url: url,
+      type: type,
+      data: form.serialize(),
+      dataType: 'file',
+      success: function(response){
+        $('kkk')[0].reset();
+        alert(respone);
+      }
+    });
+    return false;
+  });
+});
+</script>
+
+    <script src="image-gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    </body>
+</html>

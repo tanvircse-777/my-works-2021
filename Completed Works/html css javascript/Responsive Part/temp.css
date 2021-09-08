@@ -1,0 +1,112 @@
+.part{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+
+.partLocation{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.area{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.areaTable{
+    border: 1px solid black;
+    width: 90%;
+}
+.addPart{
+    margin-top: 5px;
+}
+
+.addPartList{
+    list-style-type: none;
+    text-align: center;
+
+    
+}
+
+.addPartList li{
+    display: inline;
+    background-color: rgb(221, 212, 212);
+    padding: 6px 0px 10px 0px;
+    border-radius: 7%;
+    
+}
+.addLocation{
+    margin-top: 11px;
+}
+
+.addLocationList{
+    list-style-type: none;
+    margin-left:-40px;
+    
+}
+
+.addLocationList li{
+    color:white;
+    display: inline;
+    border-radius: 8%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.addArea{
+    margin-top: 11px;
+}
+.addAreaList{
+    list-style-type: none;
+    margin-left:-40px;
+}
+
+.addAreaList li{
+    color:white;
+    display: inline;
+    border-radius: 6%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.someText{
+    margin-top: 10px;
+    background-color: rgb(223, 219, 219);
+}
+.someTextList{
+    list-style-type: none;
+    margin-left:-40px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+
+.someTextList li{
+    color:white;
+    display: inline;
+    border-radius: 7%;
+    background-color: rgb(24, 132, 255);
+    padding: 7px 5px 10px 5px;
+}
+
+.areaTable{
+    border: 1px solid black;
+    margin: 0 -5px 5px 5px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+th{
+  background-color: #df50af;
+  color: white;
+}
+
+th, td{
+    padding: 4px !important;
+}
+
+.wrap div{
+    border-radius: 1%;
+}

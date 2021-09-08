@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evo Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="temp2.js"></script>
+    <link href="temp2.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.min.css">
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.orange-coral.min.css">
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" type="text/css" href="./evo-calendar/css/evo-calendar.royal-navy.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./demo/demo.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="container-fluid">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="leftWrapper">
+                <div class="topnav">
+                <a href="#home"><img src='logo.PNG'></a>
+                <div class="search-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-sm-4">
+                    <div class="customDiv">
+                        <h6 style="color:white">Number of Students</h6>
+                        <p>5</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="customDiv">
+                        <h6 style="color:white">Jobs in this year</h6>
+                        <p>21</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="customDiv">
+                        <h6 style="color:white">Jobs in this month</h6>
+                        <p>8</p>
+                    </div>
+                </div>
+              </div>
+              <div class="mentorPortal">
+                  <div class="row">
+                      <div class="col-md-8">
+                        <h5 style="color:white">STUDYVILLAGE MENTOR PORTAL</h5>
+                        <p style="color:#C4D245;font-size: 30px;font-weight: 700;">Greg Inglish</p>
+                        <p>Southampton, UNITED KINGDOM</p>
+                      </div>
+                      <div class="col-md-4">
+                          <img class="mentorImage" src='pass.jpg'>
+                    </div>
+                  </div>
+              </div>
+              <div class="nextEvents">
+                  <h5 style="color:white;margin-bottom: 15px;">Next Events</h5>
+                  <div style="background-color:#FBCD16" class="nextEventsDiv">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                  <div style="background-color:#FE296A" class="nextEventsDiv">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div style="background-color:#0C78E5" class="nextEventsDiv">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div style="background-color:#7D4DCB" class="nextEventsDiv">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div style="border-left: 1px solid #C5D529;" class="col-md-4">
+            <div style="display:block;float:right">
+                <div style="float:right"><img class="sideNavImage" src="pass.jpg"></div>
+                <div style="float:right;display:block"><i style="color:#BFD63F;height: 30px;width:50px;" class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            </div>
+            <div class="tthisCalender">
+                <div class="section-content">
+                    <div class="console-log">
+                        <div class="log-content">
+                            <div class="--noshadow midnight-blue" id="demoEvoCalendar"></div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-action" id="addBtn">ADD EVENT</button>
+                        <button class="btn-action" id="removeBtn" disabled>REMOVE EVENT</button>
+                    </div>
+                </div>
+            </div>
+            <ul class="sideNavList">
+                <li><a href="#">NEXT EVENT</a></li>
+                <li><a href="#">TRAINING MODULES</a></li>
+                <li><a href="#">STUDYVILLAGE HANDBOOK</a></li>
+                <li><a href="#">YOUR STUDNTS</a></li>
+                <li><a href="#">YOUR PROFILE</a></li>
+                <li><a href="#">CONTACT STUDY VILLAGE</a></li>
+            </ul>
+        </div>
+    </div>
+    
+             <!--    <div class="section-content">
+                    <p class="section-title --shrt">evocalendar in action!</p>
+                    <div class="action-buttons">
+                        <p class="section-desc">Experience evocalendar in every theme</p>
+                        <button class="btn-action active" data-set-theme="Default">DEFAULT</button>
+                        <button class="btn-action" data-set-theme="Midnight Blue">MIDNIGHT BLUE</button>
+                        <button class="btn-action" data-set-theme="Royal Navy Default">ROYAL NAVY</button>
+                        <button class="btn-action" data-set-theme="Orange Coral">ORANGE CORAL</button>
+                    </div>
+                    <div class="console-log">
+                        <div class="log-content">
+                            <div class="--noshadow midnight-blue" id="demoEvoCalendar"></div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn-action" id="addBtn">ADD EVENT</button>
+                        <button class="btn-action" id="removeBtn" disabled>REMOVE EVENT</button>
+                    </div>
+                </div>
+                 -->
+            
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="./evo-calendar/js/evo-calendar.min.js"></script>
+    <script src="./demo/demo.js"></script>
+</body>
+</html>

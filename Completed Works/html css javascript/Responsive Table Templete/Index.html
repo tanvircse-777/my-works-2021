@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/easyResponsiveTabs.js"></script>
+    <link href="temp.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <title>Easy Responsive Tabs to Accordion</title>
+    
+</head>
+<body>
+    <div id="container" style="width:95%">
+      <div class="wrapper">
+        <div class="topDiv">
+          <div class="w3-row partDetailTop">
+            <div class="w3-col w3-container" style="width:33.33%">Quote No:XXX</div>
+            <div class="w3-col w3-container" style="width:33.33%">Account Name: XXX</div>
+            <div class="w3-col w3-container" style="width:33.33%">Work Summary</div>
+          </div>
+          <div class="row" style="margin-bottom: 5px;">
+            <div class="col-md-6">
+              <div class="btn-group-green">
+                <button>Add Part</button>
+                <button>Add Location</button>
+                <button>Add Area</button>
+                <button>Add Note</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="btn-group-red">
+                <button>Location Summary</button>
+                <button>Area Summary</button>
+                <button>Quote Summary</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Horizontal Tab-->
+        <div id="parentHorizontalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>Part A</li>
+                <li>Part B</li>
+                <li>Part C</li>
+            </ul>
+            
+            <div style="background-color: #EEEEEE;" class="resp-tabs-container hor_1">
+                <div>
+                 <div class="w3-row partDetail">
+                  <div class="w3-col w3-container" style="width:33.33%">PART A</div>
+                  <div class="w3-col w3-container" style="width:33.33%">Total Cost:XXX</div>
+                  <div class="w3-col w3-container" style="width:33.33%">Total Labour: XXX</div>
+                </div>
+                    <p>
+                        <!--vertical Tabs-->
+
+                        <div id="ChildVerticalTab_1">
+                            <ul class="resp-tabs-list ver_1 verUlStyle">
+                                <li>Location A</li>
+                                <li>Location B</li>
+                                <li>Location C</li>
+                            </ul>
+                            <div style="background-color: #CCCCCC;" class="resp-tabs-container ver_1">
+                                <div>
+                                  <div class="row">
+                                    <div class="col-lg-9">
+                                      <div class="w3-row partDetail">
+                                        <div class="w3-col w3-container" style="width:33.33%">PART A</div>
+                                        <div class="w3-col w3-container" style="width:33.33%">Total Cost:XXX</div>
+                                        <div class="w3-col w3-container" style="width:33.33%">Total Labour: XXX</div>
+                                  </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-3">
+                                      <div class="btn-group-green">
+                                        <button type="button">Add Area/Room</button>
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
+                                    <div id="partLocation1" style="border: none" class="partLocation">
+                                      <div id="ChildVerticalTab_2">
+                                        <ul class="resp-tabs-list ver_2 verUlStyle">
+                                            <li>Room A</li>
+                                            <li>Room B</li>
+                                            <li>Room C</li>
+                                        </ul>
+                                        <div class="resp-tabs-container ver_2">
+                                            
+                                              <div class="">
+                                               
+                                                <div style="width:99%;height:99%" class="areaTable table-responsive">
+                                                  
+                                                  <table id="areaTable1" class="table areaTable">
+                                                      <thead>
+                                                      
+                                                          <th>#</th>
+                                                          <th>Firstname</th>
+                                                          <th>Lastname</th>
+                                                          <th>Age</th>
+                                                          <th>City</th>
+                                                          <th>Country</th>
+                                                      
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>1</td>
+                                                          <td>Anna</td>
+                                                          <td>Pitt</td>
+                                                          <td>35</td>
+                                                          <td>New York</td>
+                                                          <td>USA</td>
+                                                          <td><button class="btn btn-primary">Edit</button></td>
+                                                          <td><button class="btn btn-danger">Delete</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>1</td>
+                                                          <td>Anna</td>
+                                                          <td>Pitt</td>
+                                                          <td>35</td>
+                                                          <td>New York</td>
+                                                          <td>USA</td>
+                                                          <td><button class="btn btn-primary">Edit</button></td>
+                                                          <td><button class="btn btn-danger">Delete</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>1</td>
+                                                          <td>Anna</td>
+                                                          <td>Pitt</td>
+                                                          <td>35</td>
+                                                          <td>New York</td>
+                                                          <td>USA</td>
+                                                          <td><button class="btn btn-primary">Edit</button></td>
+                                                          <td><button class="btn btn-danger">Delete</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td><input class="tableInput" type="text" name=""></td>
+                                                          <td colspan="2"><button type="submit" style="width: 66%" class="btn btn-success">Submit</button></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                              </div>
+                                              </div>
+                                        
+                                    </div>
+                                  </div>
+                                    </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                    </p>
+                    <p>Part A</p>
+                </div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.
+                    <br>
+                    <br>
+                    <p>Tab 2 Container</p>
+                </div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.
+                    <br>
+                    <br>
+                    <p>Tab 3 Container</p>
+                </div>
+            </div>
+        </div>
+        <div id="nested-tabInfo">
+            Selected tab: <span class="tabName"></span>
+        </div>
+      </div>
+    </div>
+	
+	<!--Plug-in Initialisation-->
+	<script type="text/javascript">
+    $(document).ready(function() {
+        //Horizontal Tab
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        // Child Tab
+        $('#ChildVerticalTab_1').easyResponsiveTabs({
+            type: 'default',
+            width: 'auto',
+            fit: true,
+            tabidentify: 'ver_1', // The tab groups identifier
+            activetab_bg: '#fff', // background color for active tabs in this group
+            inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+            active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+            active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+        });
+
+        $('#ChildVerticalTab_2').easyResponsiveTabs({
+            type: 'default',
+            width: 'auto',
+            fit: true,
+            tabidentify: 'ver_2', // The tab groups identifier
+            activetab_bg: '#fff', // background color for active tabs in this group
+            inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+            active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+            active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+        });
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+</body>
+</html>

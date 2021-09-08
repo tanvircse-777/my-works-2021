@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.gantt_task_line.gantt_dependent_task {
+    background-color: #65c16f;
+    border: 1px solid #3c9445;
+
+}
+
+.gantt_task_line.gantt_dependent_task .gantt_task_progress {
+    background-color: #46ad51;
+}
+.gantt_scale_cell, .gantt_last_cell, .gantt_scale_line, .gantt_task_scale{
+    display:none;
+}
+.table-btn{
+border:1px solid black !important;
+color:black !important;
+background-color: white !important;
+}
+.empdiv:after
+{
+content: '.';
+visibility: hidden;
+}
